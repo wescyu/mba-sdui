@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "l1-level-3",
+  "blocks": [
+    {
+      "type": "header",
+      "eyebrow": "Level 3 of 4",
+      "title": "Earned, or just moving?"
+    },
+    {
+      "type": "rule",
+      "text": "Cash moving is not the same as money earned."
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "prompt": "SoFi lends out $10,000",
+          "options": [
+            {
+              "label": "Adds to profit"
+            },
+            {
+              "label": "No effect on profit"
+            },
+            {
+              "label": "Cuts profit"
+            }
+          ],
+          "answer": 1,
+          "why": "Cash turned into a loan. Same total, nothing earned yet."
+        },
+        {
+          "prompt": "The borrower pays $100 of interest",
+          "options": [
+            {
+              "label": "Adds to profit"
+            },
+            {
+              "label": "No effect on profit"
+            },
+            {
+              "label": "Cuts profit"
+            }
+          ],
+          "answer": 0,
+          "why": "Interest is the price of borrowing. SoFi earned it."
+        },
+        {
+          "prompt": "The borrower repays $200 of the loan",
+          "options": [
+            {
+              "label": "Adds to profit"
+            },
+            {
+              "label": "No effect on profit"
+            },
+            {
+              "label": "Cuts profit"
+            }
+          ],
+          "answer": 1,
+          "why": "That's principal: SoFi's own money coming home. The loan just shrinks."
+        },
+        {
+          "prompt": "A customer deposits $10,000",
+          "options": [
+            {
+              "label": "Adds to profit"
+            },
+            {
+              "label": "No effect on profit"
+            },
+            {
+              "label": "Cuts profit"
+            }
+          ],
+          "answer": 1,
+          "why": "Cash went up, but so did what SoFi owes back. Both sides grow equally."
+        },
+        {
+          "prompt": "SoFi expects $300 of a loan won't be repaid",
+          "options": [
+            {
+              "label": "Adds to profit"
+            },
+            {
+              "label": "No effect on profit"
+            },
+            {
+              "label": "Cuts profit"
+            }
+          ],
+          "answer": 2,
+          "why": "Expected losses are booked as an expense right away. Banks call it a loan loss provision."
+        }
+      ],
+      "next": {
+        "label": "Start level 4",
+        "action": {
+          "type": "navigate",
+          "to": "l1-level-4"
+        }
+      }
+    }
+  ]
+}

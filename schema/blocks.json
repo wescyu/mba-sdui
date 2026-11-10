@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "actions": { "navigate": ["to"] },
+  "blocks": {
+    "header": { "required": ["title"], "optional": ["eyebrow", "subtitle"] },
+    "text": { "required": ["text"], "optional": [] },
+    "rule": { "required": ["text"], "optional": [] },
+    "card": { "required": ["title"], "optional": ["eyebrow", "body", "action"] },
+    "button": { "required": ["label", "action"], "optional": [] },
+    "quiz": { "required": ["questions"], "optional": ["next"] }
+  }
+}

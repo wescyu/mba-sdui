@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "MBA",
+    "slug": "mba-sdui",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["ios", "android", "web"],
+    "web": { "bundler": "metro", "output": "single" },
+    "experiments": { "baseUrl": "/mba-sdui" }
+  }
+}

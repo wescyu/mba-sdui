@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "home",
+  "blocks": [
+    {
+      "type": "header",
+      "eyebrow": "Quarter 1 · Week 1",
+      "title": "The three statements",
+      "subtitle": "Four short levels. Tap to answer, miss one and it comes back."
+    },
+    {
+      "type": "card",
+      "eyebrow": "Level 1",
+      "title": "Which report answers it?",
+      "body": "4 questions",
+      "action": {
+        "type": "navigate",
+        "to": "l1-level-1"
+      }
+    },
+    {
+      "type": "card",
+      "eyebrow": "Level 2",
+      "title": "Own it, owe it, or keep it?",
+      "body": "4 questions",
+      "action": {
+        "type": "navigate",
+        "to": "l1-level-2"
+      }
+    },
+    {
+      "type": "card",
+      "eyebrow": "Level 3",
+      "title": "Earned, or just moving?",
+      "body": "5 questions",
+      "action": {
+        "type": "navigate",
+        "to": "l1-level-3"
+      }
+    },
+    {
+      "type": "card",
+      "eyebrow": "Level 4",
+      "title": "Boss: the bank's spread",
+      "body": "2 questions",
+      "action": {
+        "type": "navigate",
+        "to": "l1-level-4"
+      }
+    }
+  ]
+}

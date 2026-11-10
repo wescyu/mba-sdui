@@ -1,0 +1,18 @@
+name: Check lessons
+
+# Runs when lesson content changes: confirms every screen follows the contract.
+on:
+  push:
+    paths: ["server/**", "schema/**"]
+  pull_request:
+    paths: ["server/**", "schema/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node server/validate.mjs

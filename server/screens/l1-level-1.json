@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "l1-level-1",
+  "blocks": [
+    {
+      "type": "header",
+      "eyebrow": "Level 1 of 4",
+      "title": "Which report answers it?"
+    },
+    {
+      "type": "rule",
+      "text": "Income statement = profit over time. Balance sheet = a snapshot. Cash flow = real cash."
+    },
+    {
+      "type": "quiz",
+      "questions": [
+        {
+          "prompt": "Did SoFi make money this quarter?",
+          "options": [
+            {
+              "label": "Income statement",
+              "hint": "Profit over a period"
+            },
+            {
+              "label": "Balance sheet",
+              "hint": "Snapshot: own vs. owe"
+            },
+            {
+              "label": "Cash flow",
+              "hint": "Real cash in and out"
+            }
+          ],
+          "answer": 0,
+          "why": "Profit over a stretch of time is the income statement's whole job."
+        },
+        {
+          "prompt": "How much does SoFi owe its depositors today?",
+          "options": [
+            {
+              "label": "Income statement",
+              "hint": "Profit over a period"
+            },
+            {
+              "label": "Balance sheet",
+              "hint": "Snapshot: own vs. owe"
+            },
+            {
+              "label": "Cash flow",
+              "hint": "Real cash in and out"
+            }
+          ],
+          "answer": 1,
+          "why": "What you owe at one moment is a snapshot. That's the balance sheet."
+        },
+        {
+          "prompt": "How much real cash came in last month?",
+          "options": [
+            {
+              "label": "Income statement",
+              "hint": "Profit over a period"
+            },
+            {
+              "label": "Balance sheet",
+              "hint": "Snapshot: own vs. owe"
+            },
+            {
+              "label": "Cash flow",
+              "hint": "Real cash in and out"
+            }
+          ],
+          "answer": 2,
+          "why": "Profit can be booked before the cash arrives. Only the cash flow statement tracks real money."
+        },
+        {
+          "prompt": "What is SoFi worth to its owners right now?",
+          "options": [
+            {
+              "label": "Income statement",
+              "hint": "Profit over a period"
+            },
+            {
+              "label": "Balance sheet",
+              "hint": "Snapshot: own vs. owe"
+            },
+            {
+              "label": "Cash flow",
+              "hint": "Real cash in and out"
+            }
+          ],
+          "answer": 1,
+          "why": "Own minus owe equals equity, and equity lives on the balance sheet."
+        }
+      ],
+      "next": {
+        "label": "Start level 2",
+        "action": {
+          "type": "navigate",
+          "to": "l1-level-2"
+        }
+      }
+    }
+  ]
+}
